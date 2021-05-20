@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{691ED216-A54E-4370-BF21-26328DB85582}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Minecraftbilbio</RootNamespace>
+    <AssemblyName>Minecraftbilbio</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Block.cs" />
+    <Compile Include="Blocks\BedRock.cs" />
+    <Compile Include="Blocks\Porte.cs" />
+    <Compile Include="Blocks\Echelle.cs" />
+    <Compile Include="Blocks\FeuilleDeChene.cs" />
+    <Compile Include="Blocks\Minerais_Charbon.cs" />
+    <Compile Include="Blocks\Minerais_Emeraude.cs" />
+    <Compile Include="Blocks\Minerais_Diamant.cs" />
+    <Compile Include="Blocks\Roche.cs" />
+    <Compile Include="Blocks\Herbe.cs" />
+    <Compile Include="Blocks\TroncDeChene.cs" />
+    <Compile Include="Blocks\Four.cs" />
+    <Compile Include="Blocks\Minerais_Or.cs" />
+    <Compile Include="Blocks\PlancheDeChene.cs" />
+    <Compile Include="Blocks\Coffre.cs" />
+    <Compile Include="Blocks\Block_Fer.cs" />
+    <Compile Include="Blocks\Minerais_Fer.cs" />
+    <Compile Include="Blocks\Pierre.cs" />
+    <Compile Include="Blocks\TableDeCraft.cs" />
+    <Compile Include="Blocks\Terre.cs" />
+    <Compile Include="Brulable.cs" />
+    <Compile Include="Chunk.cs" />
+    <Compile Include="Craft.cs" />
+    <Compile Include="Cuisable.cs" />
+    <Compile Include="Ecrans.cs" />
+    <Compile Include="Entites\Vache.cs" />
+    <Compile Include="Entites\Zombie.cs" />
+    <Compile Include="Generateur.cs" />
+    <Compile Include="Generateur\VoidGenerateur.cs" />
+    <Compile Include="Generateur\FlatGenerateur.cs" />
+    <Compile Include="Generateur\GenerateurParDefault.cs" />
+    <Compile Include="Items\Attribue\Cassable.cs" />
+    <Compile Include="Items\Attribue\Item_Block.cs" />
+    <Compile Include="Items\Attribue\Arme.cs" />
+    <Compile Include="Items\Attribue\Armure.cs" />
+    <Compile Include="Items\Attribue\Nourriture.cs" />
+    <Compile Include="Items\Autre\Ciseau.cs" />
+    <Compile Include="Items\Block\Porte.cs" />
+    <Compile Include="Items\Block\Echelle.cs" />
+    <Compile Include="Items\Block\FeuilleDeChene.cs" />
+    <Compile Include="Items\Autre\Charbon.cs" />
+    <Compile Include="Items\Block\Roche.cs" />
+    <Compile Include="Items\Block\Herbe.cs" />
+    <Compile Include="Items\Block\TroncDeChene.cs" />
+    <Compile Include="Items\Block\Fer_Block.cs" />
+    <Compile Include="Items\Block\Minerais_Or.cs" />
+    <Compile Include="Items\Block\Minerais_Fer.cs" />
+    <Compile Include="Items\Autre\Baton.cs" />
+    <Compile Include="Items\Block\PlancheDeChene.cs" />
+    <Compile Include="Items\Autre\Diamant.cs" />
+    <Compile Include="Items\Autre\Or.cs" />
+    <Compile Include="Items\Autre\Cuire.cs" />
+    <Compile Include="Items\Autre\Fer.cs" />
+    <Compile Include="Items\Autre\Emeraude.cs" />
+    <Compile Include="Items\Block\Four.cs" />
+    <Compile Include="Items\Block\TableDeCraft_Item.cs" />
+    <Compile Include="Items\Block\Coffre.cs" />
+    <Compile Include="Items\Block\Pierre_Item.cs" />
+    <Compile Include="Items\Block\Terre.cs" />
+    <Compile Include="Items\Casque\CasqueCuire.cs" />
+    <Compile Include="Items\Casque\CasqueDiamant.cs" />
+    <Compile Include="Items\Casque\CasqueFer.cs" />
+    <Compile Include="Items\Casque\CasqueOr.cs" />
+    <Compile Include="Items\Epee\EpeeBois.cs" />
+    <Compile Include="Items\Nourriture\Boeuf.cs" />
+    <Compile Include="Items\Pioche\PiocheBois.cs" />
+    <Compile Include="Items\Pioche\PiochePierre.cs" />
+    <Compile Include="Items\Pioche\PiocheDiamant.cs" />
+    <Compile Include="Items\Pioche\PiocheFer.cs" />
+    <Compile Include="Items\Pioche\PiocheOr.cs" />
+    <Compile Include="Items\Epee\EpeePierre.cs" />
+    <Compile Include="Items\Epee\EpeeDiamant.cs" />
+    <Compile Include="Items\Epee\EpeeFer.cs" />
+    <Compile Include="Items\Epee\EpeeOr.cs" />
+    <Compile Include="Items\Plastron\PlastronCuire.cs" />
+    <Compile Include="Items\Plastron\PlastronDiamant.cs" />
+    <Compile Include="Items\Plastron\PlastronFer.cs" />
+    <Compile Include="Items\Plastron\PlastronOr.cs" />
+    <Compile Include="Items\Attribue\Plastron.cs" />
+    <Compile Include="Items\Attribue\Botte.cs" />
+    <Compile Include="Items\Attribue\Casque.cs" />
+    <Compile Include="Echange.cs" />
+    <Compile Include="Entite.cs" />
+    <Compile Include="Items\Attribue\Epee.cs" />
+    <Compile Include="Inventaire.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Items\Jambiere\JambiereCuire.cs" />
+    <Compile Include="Items\Jambiere\JambiereFer.cs" />
+    <Compile Include="Items\Jambiere\JambiereOr.cs" />
+    <Compile Include="Items\Jambiere\JambiereDiamant.cs" />
+    <Compile Include="Items\Botte\BotteCuire.cs" />
+    <Compile Include="Items\Botte\BotteDiamant.cs" />
+    <Compile Include="Items\Botte\BotteFer.cs" />
+    <Compile Include="Items\Botte\BotteOr.cs" />
+    <Compile Include="Items\Attribue\Jambiere.cs" />
+    <Compile Include="Entites\Joueur.cs" />
+    <Compile Include="Entites\Marchand.cs" />
+    <Compile Include="Items\Attribue\Pioche.cs" />
+    <Compile Include="Monde.cs" />
+    <Compile Include="Noise.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Items\Autre\Sacados.cs" />
+    <Compile Include="Items\Nourriture\Boeuf_Cuit.cs" />
+    <Compile Include="Sauvegarde.cs" />
+    <Compile Include="Schematique.cs" />
+    <Compile Include="Schema\Arbre.cs" />
+    <Compile Include="Schema\Village\MaisonVillagePlaine1.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

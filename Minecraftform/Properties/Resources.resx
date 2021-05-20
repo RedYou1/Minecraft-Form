@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Block_BedRock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_BedRock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Block_Fer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Block_Fer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Coffre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Coffre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Echelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Echelle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_FeuilleDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_FeuilleDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Herbe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Herbe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Minerais_Charbon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Minerais_Charbon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Minerais_Diamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Minerais_Diamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Minerais_Emeraude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Minerais_Emeraude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Minerais_Fer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Minerais_Fer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Minerais_Or" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Minerais_Or.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Pierre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Pierre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_PlancheDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_PlancheDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Porte_Fermee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Porte_Fermee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Porte_Ouvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Porte_Ouvert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Roche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Roche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_TableDeCraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_TableDeCraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_Terre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_Terre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_TroncDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Block\Block_TroncDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coeurs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coeurs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Entite_Joueur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entite\Entite_Joueur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Entite_Marchand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entite\Entite_Marchand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Entite_Vache" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entite\Entite_Vache.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Entite_Zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entite\Entite_Zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUI_HotBarre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUI_HotBarre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUI_Selector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUI_Selector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_Four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_Four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_Inventaire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_Inventaire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_Inventaire_Emplacement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_Inventaire_Emplacement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_Joueur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_Joueur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_Marchand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_Marchand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventaire_TableDeCraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventaire_TableDeCraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Baton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Baton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Block_Fer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Block_Fer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Boeuf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Boeuf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Boeuf_Cuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Boeuf_Cuit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_BotteCuire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_BotteCuire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_BotteDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_BotteDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_BotteFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_BotteFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_BotteOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_BotteOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_CasqueCuire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_CasqueCuire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_CasqueDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_CasqueDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_CasqueFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_CasqueFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_CasqueOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_CasqueOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Charbon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Charbon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Ciseau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Ciseau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Coffre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Coffre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Cuire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Cuire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Diamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Diamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Echelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Echelle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Emeraude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Emeraude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_EpeeBois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_EpeeBois.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_EpeeDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_EpeeDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_EpeeFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_EpeeFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_EpeeOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_EpeeOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_EpeePierre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_EpeePierre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Fer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Fer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_FeuilleDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_FeuilleDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Herbe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Herbe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_JambiereCuire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_JambiereCuire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_JambiereDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_JambiereDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_JambiereFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_JambiereFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_JambiereOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_JambiereOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Minerais_Fer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Minerais_Fer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Minerais_Or" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Minerais_Or.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Or" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Or.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Pierre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Pierre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PiocheBois" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PiocheBois.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PiocheDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PiocheDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PiocheFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PiocheFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PiocheOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PiocheOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PiochePierre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PiochePierre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PlancheDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PlancheDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PlastronCuire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PlastronCuire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PlastronDiamant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PlastronDiamant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PlastronFer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PlastronFer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_PlastronOr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_PlastronOr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Porte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Porte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Roche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Roche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_SacADos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_SacADos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_TableDeCraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_TableDeCraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_Terre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_Terre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Item_TroncDeChene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Item\Item_TroncDeChene.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nourriture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nourriture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>
